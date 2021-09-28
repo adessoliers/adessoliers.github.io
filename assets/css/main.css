@@ -2955,7 +2955,7 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				text-align: left;
 			}
 
 			header.major > .date {
@@ -2983,7 +2983,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			header br {
-				display: none;
+				display: static;
 			}
 
 		}
